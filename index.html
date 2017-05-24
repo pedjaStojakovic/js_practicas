@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+  <head>
+	<meta charset="utf-8" />
+	<meta content="Tecnologías y Herramientas para el Desarrollo Web" name="author" />
+	
+	<title> TEDW - PRA2 </title> 
+	
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	
+	<!-- <script type="text/javascript" src="js/canvas.js"></script> -->	
+	<!-- <script type="text/javascript" src="js/level1.json"></script>
+	<script type="text/javascript" src="js/level2.json"></script> -->
+	<script type="text/javascript" src="js/functions.js" ></script>
+
+
+	
+	
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	
+	<script type="text/javascript">
+	
+	
+</script>
+</head>
+<body onload="init_game();">
+
+<header>
+	<h2>Tecnolgías y Herramientas para el Desarrollo Web - PRA2 </h2>
+</header>
+
+
+<article>
+	<canvas id="canvas" style="border:1px #D5D5D5 solid;" width="600" height="520"></canvas>
+	<audio id="soundEfx" src="sounds/ball-touch.wav" style="display: none;"></audio>
+</article>
+
+<aside>
+		<div id="inicio" class="button"> Inicia partida</div>
+		<div id="pausa" class="button">Pausa</div>
+		<hr>
+		<div><h4>Tiempo Partida: <span id="tiempoPartida">00:00:00</span></h4></div>
+		<div><h4>Mejor puntuaci&oacute;n ( m&aacute;s baja ): <span id="val_mejor_puntuacion">10000</span> puntos</h4></div>
+		<div><h4>Puntuaci&oacute;n actual: <span id="puntuacion_actual">1200</span></h4></div>		
+</aside>
+
+</body>
+</html> 

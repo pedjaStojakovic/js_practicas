@@ -1,0 +1,36 @@
+body{
+	margin:10px 10%;
+}
+header{
+	text-align:center; 
+	background-color:black;
+	color:white;
+	padding:10px;
+	margin-bottom: 10px;
+}
+
+article{
+
+	width:60%;
+	display:inline-block;
+	float:left;
+}
+
+aside{
+	width:30%;
+	display:inline-block;
+	float:left;
+	background-color:whitesmoke;
+	padding: 20px;
+	height:480px;
+	
+}
+
+.button{
+	padding:15px;
+	background-color:black;
+	color:white;
+	text-align:center;
+	margin-bottom: 2px;
+	font-size:20px;
+}
